@@ -1,8 +1,8 @@
 % Generate training data for Monza5 tags
 % The data format is as follows:
-% Temperature (¡æ)    Persistence time (s)    ID
-% 16.28                        0.82                             4
-% The record means the persistence time of tag #4 is 0.82 s at 16.28 ¡æ.
+% Temperature (â„ƒ)    Persistence time (s)    ID
+% 16.28                        0.82           4
+% The record means the persistence time of tag #4 is 0.82 s at 16.28 â„ƒ.
 close all
 clear all
 train_data = [];
