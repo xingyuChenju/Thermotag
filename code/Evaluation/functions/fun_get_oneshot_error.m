@@ -2,7 +2,7 @@
 %   E = FUN_GET_ONESHOT_ERROR(TagID) returns the temperature errors of a tag.  
 
 %   [E,T] = FUN_GET_ONESHOT_ERROR(TagID) also returns the corresponding temperature levels.
-%   The result means the temperature error at T ¡æ is E ¡æ. 
+%   The result means the temperature error at T â„ƒ is E â„ƒ. 
 
 %   Example:
 %       IDsets = [1 2 3 4 5];
