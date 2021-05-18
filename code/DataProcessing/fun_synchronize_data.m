@@ -2,8 +2,8 @@
 %   [temps,ptimes,IDs] = FUN_SYNCHRONIZE_DATA(date,filename) returns temperature levels
 %   , persistence times, and tag IDs.
 %   Example:
-%       date = '210421'; % date refers to the day of an experiment. 
-%       filename = 'Monza5-4.txt'; % filename refers to the file name of RFID data. 
+%       date = '210421'; % date refers to the measurement time of an experiment. 
+%       filename = 'Monza5-4.txt';
 %       [temps,ptimes,IDs] = fun_synchronize_data(date,filename)
 function [temps,ptimes,IDs] = fun_synchronize_data(date,filename)
 id_col = 1;
@@ -16,6 +16,7 @@ RFID_day = str2num(datestr(start_time.Var1,'yyyymmdd'));
 RFID_hour = str2num(datestr(start_time.Var2,'HHMMSS'));
 file_names = dir('TemperatureData');
 temp_filename = file_names(3).name ;
+%% Determine temperature data
 for i = 3:length(file_names)
     data_name = file_names(i).name;
     temp_day = str2num(data_name(10:17));
@@ -40,6 +41,7 @@ temp_subdata = temp_data(index,:);
 ptime_data = load([data_path filename]);
 sensors = ptime_data(:,sensor_col);
 
+%% Label persistence time with temperature
 temps = [];
 ptimes = [];
 IDs= [];
@@ -85,7 +87,7 @@ while(i<length(time_diff))
         i=i+1;
     end
     if label
-        if max(time_diff(startpoint:i-1))-min(time_diff(startpoint:i-1))>0.025|i-startpoint<6
+        if max(time_diff(startpoint:i-1))-min(time_diff(startpoint:i-1))>0.2|i-startpoint<6
             index(startpoint:i-1) = 0;
         else
             index(startpoint:i-1) = 1;

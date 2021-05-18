@@ -31,7 +31,7 @@ plot(temps,ptimes,'o','Color', [210,105,30]/255)
 hold on 
 plot(temp,y,'LineWidth',1.5,'Color',[50,100,180]/255);
 legend('Testing Data','Theoretical Curve','Location','southwest');
-fun_set_axis_size('Temperature (\circC)','Persistence Time (s)',16,[420 300]);
+fun_set_axis_size('Temperature (\circC)','Persistence Time (s)',14,[420 300]);
 end
 
 

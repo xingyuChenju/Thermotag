@@ -20,7 +20,7 @@ for i = 1:20
 end 
 xticks(1:20)
 xlim([0 21])
-fun_set_longbar('Tag #','Temperature Error (\circC)',16,[420 300]);
+fun_set_axis_size('Tag #','Temperature Error (\circC)',12,[420 300]);
 
 %% Per-tag Calibration vs. One-shot Calibration
 errors = zeros(1,20);
