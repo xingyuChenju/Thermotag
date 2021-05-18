@@ -10,10 +10,10 @@ import java.util.Scanner;
 
 public class ReaderSettings {
     public static void main(String[] args) {
-        // Input the hostname or IP address of the reader in command line or specify its hostname in the code
+        // Input the hostname or IP address of the reader in command line or specify its hostname in the code.
         System.out.println("Input the  hostname of the reader");
         Scanner scanner = new Scanner(System.in);
-        String hostname = scanner.nextLine();    // IP address of the reader
+        String hostname = scanner.nextLine();
         ImpinjReader reader = new ImpinjReader();
         try {
             reader.connect(hostname+".local");
@@ -22,8 +22,8 @@ public class ReaderSettings {
         }
         Settings settings = reader.queryDefaultSettings();
         settings.setReaderMode(ReaderMode.MaxThroughput);
-        // In this work, we use the persistence time of session 1 as the metric to do temperature sensing
-        // The corresponding settings are given below
+        // In this work, we use the persistence time of session 1 as the metric to do temperature sensing.
+        // The corresponding settings are given below.
         settings.setSearchMode(SearchMode.SingleTarget); // Query A
         settings.setSession(1); // Session 1
         settings.setTagPopulationEstimate(1);
@@ -54,8 +54,7 @@ public class ReaderSettings {
         t1.setBitPointer(32);
         t1.setMemoryBank(MemoryBank.Epc);
         t1.setFilterOp(TagFilterOp.Match);
-        // If the first 32 bits of a tag's ID follows the mask "ox20210414", it will reply to the reader.
-        // The mask should be the same as the ID of the tag used in temperature sensing.
+        // If the first 32 bits of a tag's ID matches "20210414", it will reply to the reader.
         t1.setTagMask("20210414");
         settings.getFilters().setMode(TagFilterMode.OnlyFilter1);
         try {
