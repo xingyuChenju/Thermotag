@@ -35,7 +35,7 @@ public class TagReportListenerImplementation implements TagReportListener {
                    }
                }
                 interval = t.getFirstSeenTime().getLocalDateTime().getTime()-init;
-                // The data format is specified here, including the following six fields:
+                // The data format is specified below, including the following six fields:
                 //  ID      Phase       RSSI(dBm)    Time(ms)    Frequency(MHz)   SensorID
                 //  07      0.11045     -21.5          0         920.625          01
                 record= t.getEpc().toString().replace(" ","").substring(10,12)+" "+
