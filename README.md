@@ -17,10 +17,11 @@ Connect an RFID reader to the computer.
 After that, run Settings.java to get the settings used in Thermotag. It will return a settings.json, which will later be used by ReadTag.java to operate the reader.
  
 Finally, start ReadTag.java and the valid data of the tag will be stored in files. The data format is as follows:
-     ID      Phase       RSSI(dBm)    Time(ms)    Frequency(MHz)   SensorID 
+ >     ID      Phase       RSSI(dBm)    Time(ms)    Frequency(MHz)   SensorID 
     07      0.11045      -21.5          0         	920.625          01 
     02      5.19099      -52.5          1         	920.625          01 
     07      0.11658      -21.0          1329      	920.625          01  
+ 
  
 The persistence time of a tag is the time difference between its adjacent replies. In this example, the persistence time of tag #7 is 1329 - 0 = 1329 ms.
  
@@ -28,8 +29,8 @@ The persistence time of a tag is the time difference between its adjacent replie
 Extract temperature data with a temperature sensor (sensor model is PT100) and an industrial online monitoring analyzer (analyzer model is f5000 from [Sinomeasure](https://sinomeasure.en.alibaba.com/)). 
  
 After that, synchronize RFID measurements and temperature measurements with fun\_synchronize\_data.m. Several examples are given in test\_monza5.m, test\_monzaR6.m, train\_monza5.m, train\_monzaR6.m with data extracted in our lab. The data format after synchronizing is given below:
-      Temperature (℃)    Persistence time (s)    ID 
-    16.28                        0.82           4     	  
+ >     Temperature (℃)    Persistence time (s)    ID 
+    16.28                        0.82           4       	  
  
 The record means the persistence time of tag #4 is 0.82 s at 16.28 ℃.
  
