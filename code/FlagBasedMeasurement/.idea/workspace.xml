@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcd0982d-ab46-496a-98ef-2c302d27f59b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReadTags.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadTags/ReadTags.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OGLSurfaceData.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/java2d/opengl/OGLSurfaceData.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+              <folding>
+                <marker date="1508851328050" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1508851328050" expanded="false" signature="141:909" ph="..." />
+                <marker date="1508851328050" expanded="true" signature="3185:3353" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="3414:3496" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="3560:3786" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="3840:4645" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="4710:5255" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="5052:5189" ph="{...}" />
+                <marker date="1508851328050" expanded="false" signature="5087:5110" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5157:5175" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5297:5308" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5348:5354" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5406:5417" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5444:5450" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5482:5493" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5510:5516" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5557:5568" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5618:5624" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5661:5672" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5718:5724" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5769:5780" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5830:5836" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="5905:5916" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="5963:5969" ph=" }" />
+                <marker date="1508851328050" expanded="true" signature="6027:6259" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="6316:6548" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="6599:8826" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="8883:9027" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="9137:9432" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="9458:9916" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="9964:10365" ph="{...}" />
+                <marker date="1508851328050" expanded="true" signature="10406:10759" ph="{...}" />
+                <marker date="1508851328050" expanded="false" signature="10796:10807" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="10851:10857" ph=" }" />
+                <marker date="1508851328050" expanded="false" signature="10891:10902" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="10951:10957" ph=" }" />
+                <marker date="1508851328050" expanded="true" signature="10998:11275" ph="{...}" />
+                <marker date="1508851328050" expanded="false" signature="11301:11312" ph=" { " />
+                <marker date="1508851328050" expanded="false" signature="11339:11345" ph=" }" />
+                <marker date="1508851328050" expanded="true" signature="11358:13016" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReaderSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadTags/ReaderSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2223">
+              <caret line="57" column="87" lean-forward="false" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadTags/settings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagReportListenerImplementation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadTags/TagReportListenerImplementation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hostname</find>
+      <find>PATH1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>HOSTNAME</replace>
+      <replace>PATH_FTIMES</replace>
+      <replace>PATH_PTIMES</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ReadTags/ReadTags.java" />
+        <option value="$PROJECT_DIR$/ReadTags/TagReportListenerImplementation.java" />
+        <option value="$PROJECT_DIR$/ReadTags/ReaderSettings.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2582" />
+    <option name="height" value="1402" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlagBasedMeasurement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlagBasedMeasurement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlagBasedMeasurement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlagBasedMeasurement" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlagBasedMeasurement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlagBasedMeasurement" type="462c0819:PsiDirectoryNode" />
+              <item name="ReadTags" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="ote&#9;PSI&#9;JAVA://sun.java2d.opengl.OGLSurfaceData#oglTextPipe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\陈星宇\Desktop\Thermotag\code\Measurement\FM\data210505\ptimes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ReadTags">
+    <configuration name="ReadTags" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReadTags" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FlagBasedMeasurement" />
+      <envs />
+    </configuration>
+    <configuration name="ReaderSettings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReaderSettings" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FlagBasedMeasurement" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Reader" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.ReadTags" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReaderSettings" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.ReadTags" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReaderSettings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcd0982d-ab46-496a-98ef-2c302d27f59b" name="Default" comment="" />
+      <created>1546260573321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546260573321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="2582" height="1402" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18916667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3555377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/呼吸0115/demo.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸0116/demo.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸0116/test4.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸0116/test5.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸0116/groundtruth.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸cs/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/呼吸cs/groundtruth.txt" />
+    <entry file="file://$PROJECT_DIR$/../../TagClone/impinj/Reader/ReadTags/ReadTags.java" />
+    <entry file="file://$PROJECT_DIR$/data191024/water/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/data191024/water/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/data191024/water/test3.txt" />
+    <entry file="file://$PROJECT_DIR$/data191103/times/test8.txt" />
+    <entry file="file://$PROJECT_DIR$/data191103/water/test4.txt" />
+    <entry file="file://$PROJECT_DIR$/data191103/water/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/data191103/water/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/ReadTags/Work.java" />
+    <entry file="file://$PROJECT_DIR$/data200606/water/impinj8.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/water/impinj7.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/times/impinj7.txt" />
+    <entry file="file://$PROJECT_DIR$/data191024/water/test6.txt" />
+    <entry file="file://$PROJECT_DIR$/data191024/water/test5.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/times/impinj9.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/water/impinj9.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/times/impinj8.txt" />
+    <entry file="file://$PROJECT_DIR$/data200606/water/impinj10.txt" />
+    <entry file="file://$PROJECT_DIR$/data200608/water/impinj10.txt" />
+    <entry file="file://$PROJECT_DIR$/data200608/water/impinj1.txt" />
+    <entry file="file://$PROJECT_DIR$/data200608/water/impinj2.txt" />
+    <entry file="file://$PROJECT_DIR$/data200608/water/impinj3.txt" />
+    <entry file="file://$PROJECT_DIR$/data200608/water/impinj4.txt" />
+    <entry file="file://$PROJECT_DIR$/data200609/times/impinj1.txt" />
+    <entry file="file://F:/RFAuthentication123/RFAuthentication/impinj/Reader/ReadTags/ReadTags.java" />
+    <entry file="file://F:/RFAuthentication123/RFAuthentication/impinj/Reader/ReadTags/ReaderSettings.java" />
+    <entry file="file://$PROJECT_DIR$/../Impinj - time - 副本/ReadTags/ReadTags.java" />
+    <entry file="file://$PROJECT_DIR$/data200609/water/impinj1.txt" />
+    <entry file="file://$PROJECT_DIR$/../LLRP/src/DocSample.java" />
+    <entry file="file://$PROJECT_DIR$/data191120/water/impinj3.txt" />
+    <entry file="file://I:/Impinj - time/ReadTags/ReadTags.java" />
+    <entry file="file://$PROJECT_DIR$/ReadTags/Speedwayr-13-EE-F1.local.xml" />
+    <entry file="file://$PROJECT_DIR$/data210505/ftimes/Monza5-1.txt" />
+    <entry file="file://$PROJECT_DIR$/data210505/ptimes/Monza5-1.txt" />
+    <entry file="file://$PROJECT_DIR$/ReadTags/Speedwayr-11-1E-9C.xml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/java2d/opengl/OGLSurfaceData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+          <folding>
+            <marker date="1508851328050" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1508851328050" expanded="false" signature="141:909" ph="..." />
+            <marker date="1508851328050" expanded="true" signature="3185:3353" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="3414:3496" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="3560:3786" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="3840:4645" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="4710:5255" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="5052:5189" ph="{...}" />
+            <marker date="1508851328050" expanded="false" signature="5087:5110" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5157:5175" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5297:5308" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5348:5354" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5406:5417" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5444:5450" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5482:5493" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5510:5516" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5557:5568" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5618:5624" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5661:5672" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5718:5724" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5769:5780" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5830:5836" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="5905:5916" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="5963:5969" ph=" }" />
+            <marker date="1508851328050" expanded="true" signature="6027:6259" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="6316:6548" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="6599:8826" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="8883:9027" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="9137:9432" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="9458:9916" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="9964:10365" ph="{...}" />
+            <marker date="1508851328050" expanded="true" signature="10406:10759" ph="{...}" />
+            <marker date="1508851328050" expanded="false" signature="10796:10807" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="10851:10857" ph=" }" />
+            <marker date="1508851328050" expanded="false" signature="10891:10902" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="10951:10957" ph=" }" />
+            <marker date="1508851328050" expanded="true" signature="10998:11275" ph="{...}" />
+            <marker date="1508851328050" expanded="false" signature="11301:11312" ph=" { " />
+            <marker date="1508851328050" expanded="false" signature="11339:11345" ph=" }" />
+            <marker date="1508851328050" expanded="true" signature="11358:13016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data210505/ftimes/Monza5-2.txt" />
+    <entry file="file://$PROJECT_DIR$/data210505/ptimes/Monza5-2.txt" />
+    <entry file="file://$PROJECT_DIR$/data210518/ptimes/Monza5-2.txt" />
+    <entry file="file://$PROJECT_DIR$/data210518/ftimes/Monza5-2.txt" />
+    <entry file="file://$PROJECT_DIR$/ReadTags/ReadTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadTags/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadTags/ReaderSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="57" column="87" lean-forward="false" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadTags/TagReportListenerImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

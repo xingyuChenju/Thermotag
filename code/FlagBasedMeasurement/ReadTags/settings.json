@@ -1,0 +1,195 @@
+{
+  "autoStart": {
+    "mode": "None",
+    "gpiPortNumber": 0,
+    "firstDelayInMs": 0,
+    "periodInMs": 0,
+    "utcTimestamp": 0
+  },
+  "autoStop": {
+    "mode": "None",
+    "durationInMs": 0,
+    "gpiPortNumber": 0,
+    "timeout": 0
+  },
+  "readerMode": "MaxThroughput",
+  "searchMode": "SingleTarget",
+  "session": 1,
+  "tagPopulationEstimate": 1,
+  "lowDutyCycle": {
+    "IsEnabled": false,
+    "EmptyFieldTimeoutInMs": 0,
+    "FieldPingIntervalInMs": 0
+  },
+  "filters": {
+    "Mode": "OnlyFilter1",
+    "TagFilter1": {
+      "TagMask": "20210414",
+      "BitPointer": 32,
+      "BitCount": 32,
+      "MemoryBank": "Epc",
+      "FilterOp": "Match"
+    },
+    "TagFilter2": {
+      "BitPointer": 0,
+      "BitCount": 0
+    }
+  },
+  "report": {
+    "mode": "Individual",
+    "includeAntennaPortNumber": true,
+    "includeChannel": true,
+    "includeFirstSeenTime": true,
+    "includeLastSeenTime": true,
+    "includePeakRssi": true,
+    "includeSeenCount": false,
+    "includeFastId": true,
+    "includePhaseAngle": true,
+    "includeDopplerFrequency": true,
+    "includeGpsCoordinates": false,
+    "includePcBits": true,
+    "includeCrc": false,
+    "optimizedReadOps": []
+  },
+  "antennas": {
+    "antennaConfigs": [
+      {
+        "rxSensitivityinDbm": 0.0,
+        "txPowerinDbm": 31.5,
+        "isMaxRxSensitivity": true,
+        "isMaxTxPower": false,
+        "enabled": true,
+        "portNumber": 1,
+        "portName": "Antenna Port 1"
+      },
+      {
+        "rxSensitivityinDbm": 0.0,
+        "txPowerinDbm": 31.5,
+        "isMaxRxSensitivity": true,
+        "isMaxTxPower": false,
+        "enabled": false,
+        "portNumber": 2,
+        "portName": "Antenna Port 2"
+      },
+      {
+        "rxSensitivityinDbm": 0.0,
+        "txPowerinDbm": 31.5,
+        "isMaxRxSensitivity": true,
+        "isMaxTxPower": false,
+        "enabled": false,
+        "portNumber": 3,
+        "portName": "Antenna Port 3"
+      },
+      {
+        "rxSensitivityinDbm": 0.0,
+        "txPowerinDbm": 31.5,
+        "isMaxRxSensitivity": true,
+        "isMaxTxPower": false,
+        "enabled": false,
+        "portNumber": 4,
+        "portName": "Antenna Port 4"
+      }
+    ],
+    "antennaCollectionCreatedBySerializer": false,
+    "rxSensitivityinDbm": 0.0,
+    "txPowerinDbm": 0.0,
+    "isMaxRxSensitivity": true,
+    "isMaxTxPower": true,
+    "polarizationEnabled": false
+  },
+  "gpis": {
+    "gpiConfigs": [
+      {
+        "portNumber": 1,
+        "isEnabled": true,
+        "debounceInMs": 0
+      },
+      {
+        "portNumber": 2,
+        "isEnabled": true,
+        "debounceInMs": 0
+      },
+      {
+        "portNumber": 3,
+        "isEnabled": true,
+        "debounceInMs": 0
+      },
+      {
+        "portNumber": 4,
+        "isEnabled": true,
+        "debounceInMs": 0
+      }
+    ],
+    "gpiCollectionCreatedBySerializer": false
+  },
+  "gpos": {
+    "gpoConfigs": [
+      {
+        "portNumber": 1,
+        "mode": "Normal",
+        "gpoPulseDurationMsec": 0
+      },
+      {
+        "portNumber": 2,
+        "mode": "Normal",
+        "gpoPulseDurationMsec": 0
+      },
+      {
+        "portNumber": 3,
+        "mode": "Normal",
+        "gpoPulseDurationMsec": 0
+      },
+      {
+        "portNumber": 4,
+        "mode": "Normal",
+        "gpoPulseDurationMsec": 0
+      }
+    ],
+    "gpoCollectionCreatedBySerializer": false
+  },
+  "keepalives": {
+    "enabled": false,
+    "periodInMs": 0,
+    "enableLinkMonitorMode": false,
+    "linkDownThreshold": 0
+  },
+  "holdReportsOnDisconnect": false,
+  "txFrequenciesInMhz": [],
+  "xArray": {
+    "spatialConfig": {
+      "mode": "Inventory",
+      "placement": {
+        "heightCm": 400,
+        "facilityXLocationCm": 0,
+        "facilityYLocationCm": 0,
+        "orientationDegrees": 0
+      },
+      "location": {
+        "computeWindowSeconds": 10,
+        "tagAgeIntervalSeconds": 20,
+        "updateIntervalSeconds": 5,
+        "updateReportEnabled": true,
+        "entryReportEnabled": true,
+        "exitReportEnabled": true,
+        "diagnosticReportEnabled": false,
+        "isMaxTxPower": true,
+        "txPowerinDbm": 0.0,
+        "disabledAntennaList": []
+      },
+      "direction": {
+        "enabledSectors": [],
+        "userTagPopulationLimit": 0,
+        "isMaxTxPower": true,
+        "txPowerinDbm": 0.0,
+        "tagAgeIntervalSeconds": 2,
+        "updateIntervalSeconds": 2,
+        "updateReportEnabled": true,
+        "entryReportEnabled": true,
+        "exitReportEnabled": true,
+        "diagnosticReportEnabled": false,
+        "fieldOfView": "READER_SELECTED",
+        "mode": "HighPerformance"
+      }
+    }
+  }
+}
