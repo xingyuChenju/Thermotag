@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class ReaderSettings {
     public static void main(String[] args) {
-        // Input the hostname or IP address of the reader in command line or specify its hostname in the code.
+        // Input the hostname or IP address of the reader in command line.
         System.out.println("Input the  hostname of the reader");
         Scanner scanner = new Scanner(System.in);
         String hostname = scanner.nextLine();
@@ -22,7 +22,7 @@ public class ReaderSettings {
         }
         Settings settings = reader.queryDefaultSettings();
         settings.setReaderMode(ReaderMode.MaxThroughput);
-        // In this work, we use the persistence time of session 1 as the metric to do temperature sensing.
+        // Thermotag uses the persistence time of session 1 as the metric to do temperature sensing.
         // The corresponding settings are given below.
         settings.setSearchMode(SearchMode.SingleTarget); // Query A
         settings.setSession(1); // Session 1
