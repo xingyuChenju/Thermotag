@@ -16,7 +16,7 @@ RFID_day = str2num(datestr(start_time.Var1,'yyyymmdd'));
 RFID_hour = str2num(datestr(start_time.Var2,'HHMMSS'));
 file_names = dir('TemperatureData');
 temp_filename = file_names(3).name ;
-%% Determine temperature data
+
 for i = 3:length(file_names)
     data_name = file_names(i).name;
     temp_day = str2num(data_name(10:17));
