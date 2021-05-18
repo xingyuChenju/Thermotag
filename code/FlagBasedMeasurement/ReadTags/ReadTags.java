@@ -23,7 +23,8 @@ import java.util.Scanner;
 
 public class ReadTags {
     public static String TEXTNAME = "Monza5-2"; // Filename
-    // This field refers to the sensor id if multiple sensors are used in the experiment.
+    // This field refers to the sensor id.
+    // If multiple sensors are used in the experiment, this field is helped to determine which sensor is used when measuring the persistence time.
     public static String SENSORID = "01";
     public static ImpinjReader reader;
     static String dateMsg ="";
@@ -71,7 +72,7 @@ public class ReadTags {
     public static void main(String[] args) {
         try {
             reader = new ImpinjReader();
-            // Input the hostname or IP address of the reader in command line or specify its hostname in the code
+            // Input the hostname or IP address of the reader in command line
             System.out.println("Input hostname of the reader");
             Scanner scanner = new Scanner(System.in);
             String hostname = scanner.nextLine();
