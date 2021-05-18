@@ -26,7 +26,7 @@ Finally, start ReadTag.java and the valid data of the tag will be stored in file
 The persistence time of a tag is the time difference between its adjacent replies. In this example, the persistence time of tag #7 is 1329 - 0 = 1329 ms.
  
 #### 3. Data processing:
-Extract temperature data with a temperature sensor (sensor model is PT100) and an industrial online monitoring analyzer (analyzer model is f5000 from [Sinomeasure](https://sinomeasure.en.alibaba.com/)). 
+Extract temperature data with a temperature sensor (The sensor model is PT100) and an industrial online monitoring analyzer (The analyzer model is f5000 from [Sinomeasure](https://sinomeasure.en.alibaba.com/)). 
  
 After that, synchronize RFID measurements and temperature measurements with fun\_synchronize\_data.m. Several examples are given in test\_monza5.m, test\_monzaR6.m, train\_monza5.m, train\_monzaR6.m with data extracted in our lab. The data format after synchronizing is given below:
 
