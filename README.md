@@ -35,12 +35,12 @@ After that, synchronize RFID measurements and temperature measurements with fun\
    	  
 The record means the persistence time of tag #4 is 0.82 s at 16.28 ℃.
  
-Note that this process is optional. If a different temperature sensor is used, the code should be changed to fit the new data format.
+Note that this process is optional. If a different temperature sensor is chosen, the code should be changed by using the new data format.
  
 #### 4. Evaluation:
-Then, we evaluate the performance (temperature error) of Thermotag with data obtained in data processing.
+Now, we evaluate the performance (temperature error) of Thermotag with persistence times labeled with corresponding temperature levels.
  
-You can calculate the temperature error of Thermotag with fun\_get\_error.m. An example is shown in show\_results.m.  
+You can calculate the temperature error of Thermotag with fun\_get\_error.m. We introduce how to use it in show\_results.m.  
  
 ## Project Structure 
     code
