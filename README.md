@@ -40,7 +40,7 @@ Note that this process is optional. If a different temperature sensor is used, t
 #### 4. Evaluation:
 Then, we evaluate the performance (temperature error) of Thermotag with data obtained in data processing.
  
-You can calculate the temperature error of Thermotag with fun\_get\_oneshot\_error.m (using one-shot calibration) and fun\_get\_pertag\_error.m (using pertag calibration). An example is shown in show\_results.m.  
+You can calculate the temperature error of Thermotag with fun\_get\_error.m. An example is shown in show\_results.m.  
  
 ## Project Structure 
     code
@@ -61,4 +61,4 @@ Java codes are in folder FlagBasedMeasurement\ReadTags.
 
 fun\_synchronize\_data.m. and the examples are in folder DataProcessing.
 
-fun\_get\_oneshot\_error.m (using one-shot calibration) and fun\_get\_pertag\_error.m (using pertag calibration) are in folder Evaluation\functions and the example is in folder Evaluation.
+fun\_get\_error.m is in folder Evaluation\functions and the example is in folder Evaluation.
