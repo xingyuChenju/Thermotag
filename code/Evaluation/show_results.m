@@ -47,5 +47,5 @@ set(gca,'FontSize',10,'fontname','Times New Roman');
 set(gcf,'Position', [100 100 420 300]); 
 xlabel('Temperature (\circC)','Fontsize',16,'fontname','Times New Roman');
 ylabel('Error (\circC)','Fontsize',16,'fontname','Times New Roman');
-ylim([0 6])
+ylim([0 5])
 
