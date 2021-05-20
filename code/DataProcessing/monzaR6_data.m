@@ -2,7 +2,7 @@
 % The data format is as follows:
 % Temperature (degree)    Persistence time (s)    ID
 % 16.28                        0.82           4
-% The record means the persistence time of tag #4 is 0.82 s at 16.28 �?.
+% The record means the persistence time of tag #4 is 0.82 s at 16.28 â„?.
 
 close all
 clear all
@@ -24,9 +24,9 @@ epc_col = 3;
 test_data20 = [];
 epcs = unique(test_data(:,epc_col));
 for i = 1:20
-    % select the i-th tag
+    % Select the i-th tag
     index = test_data(:,epc_col) == epcs(i);
-    % change its ID to i
+    % Change its ID to i
     subdata = test_data(index,:)
     subdata(:,epc_col) = i;
     test_data20 = [test_data20;subdata];
@@ -53,9 +53,9 @@ ptime_col = 2;
 epc_col = 3;
 train_data20 = [];
 for i = 1:20
-    % select the i-th tag
+    % Select the i-th tag
     index = train_data(:,epc_col) == epcs(i);
-    % change its ID to i
+    % Change its ID to i
     subdata = train_data(index,:)
     subdata(:,epc_col) = i;
     train_data20 = [train_data20;subdata];
