@@ -53,9 +53,9 @@ ptime_col = 2;
 epc_col = 3;
 train_data20 = [];
 for i = 1:20
-    % select the i-th tag
+    % Select the i-th tag
     index = train_data(:,epc_col) == epcs(i);
-    % change its ID to i
+    % Change its ID to i
     subdata = train_data(index,:)
     subdata(:,epc_col) = i;
     train_data20 = [train_data20;subdata];

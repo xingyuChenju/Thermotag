@@ -1,6 +1,6 @@
 % Generate testing data for Monza5 tags
 % The data format is as follows:
-% Temperature (â„?)    Persistence time (s)    ID
+% Temperature (degree)    Persistence time (s)    ID
 % 16.28                        0.82           4
 % The record means the persistence time of tag #4 is 0.82 s at 16.28 â„?.
 
