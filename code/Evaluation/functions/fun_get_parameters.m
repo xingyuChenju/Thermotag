@@ -9,10 +9,10 @@ temp_col = 1; % Temperature column
 ptime_col = 2; % Persistence time column
 epc_col =3; % ID column
 if TagID>=1&TagID<=20
-    load('data\training\Monza5.mat')
+    load(['data' filesep 'training' filesep 'Monza5.mat'])
 else
     if TagID>=21&TagID<=40
-        load('data\training\MonzaR6.mat')
+        load(['data' filesep 'training' filesep 'MonzaR6.mat'])
         TagID = TagID -20;
     end
 end

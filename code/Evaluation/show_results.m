@@ -5,7 +5,7 @@ addpath('functions')
 % 1<=k<=20 tag model is Monza5
 % 20<=k<=40 tag model is MonzaR6
 k =1;
-fun_draw_data(k);
+fun_draw_data(1);
 
 %% Plot average temperature errors of 20 tags
 errors = zeros(1,20);

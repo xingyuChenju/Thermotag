@@ -2,7 +2,7 @@
 %   E = FUN_GET_PERTAG_ERROR(TagID) returns the temperature errors of a tag.  
 
 %   [E,T] = FUN_GET_PERTAG_ERROR(TagID) also returns the corresponding temperature levels.
-%   The result means the temperature error at T â„ƒ is E â„ƒ. 
+%   The result means the temperature error at T â„? is E â„?. 
 
 %   Example:
 %       E = fun_get_pertag_error(TagID)
@@ -15,10 +15,10 @@ temp_col = 1; % Temperature column
 ptime_col = 2; % Persistence time column
 epc_col =3; % ID column
 if TagID>=1&TagID<=20
-    load('data\testing\Monza5.mat')
+    load(['data' filesep 'testing' filesep 'Monza5.mat'])
 else
     if TagID>=21&TagID<=40
-        load('data\testing\MonzaR6.mat')
+        load(['data' filesep 'testing' filesep 'MonzaR6.mat'])
         TagID = TagID -20;
     end
 end

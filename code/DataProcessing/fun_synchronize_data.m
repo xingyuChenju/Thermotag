@@ -9,8 +9,9 @@ function [temps,ptimes,IDs] = fun_synchronize_data(date,filename)
 id_col = 1;
 time_col = 4;
 sensor_col = 6;
-time_path = ['RFIDdata\data' date '\ftimes\'];
-data_path =  ['RFIDdata\data' date '\ptimes\'];
+tagmodel = filename(1:6);
+time_path = ['RFIDdata' filesep 'data' date filesep 'ftimes' filesep];
+data_path =  ['RFIDdata' filesep 'data' date filesep 'ptimes' filesep];
 start_time = readtable([time_path filename],'Delimiter',' ');
 RFID_day = str2num(datestr(start_time.Var1,'yyyymmdd'));
 RFID_hour = str2num(datestr(start_time.Var2,'HHMMSS'));
@@ -34,7 +35,7 @@ for i = 3:length(file_names)
         temp_filename = data_name;
     end
 end
-temp_data = readtable(['TemperatureData\' temp_filename],'Delimiter',',');
+temp_data = readtable(['TemperatureData' filesep temp_filename],'Delimiter',',');
 index = temp_data.Time>= start_time.Var2;
 temp_subdata = temp_data(index,:);
 
@@ -55,9 +56,14 @@ for sensorid = 0:2
         index =epcs ==m_epc;
         temp_data = ptime_subdata(index,:);
         times = temp_data(:,time_col)/1000;
-         time_dif = times(2:end) - times(1:end-1);
-        
-        index = fun_diff(time_dif,2);
+        time_dif = times(2:end) - times(1:end-1);
+        % data processing, remove noisy data
+        if tagmodel =='Monza5' %% Monza5
+            index = fun_diff(time_dif,2);
+        else if tagmodel == 'MonzaR' %% MonzaR6
+                index = fun_diff(time_dif,1);
+            end
+        end
         time_dif = time_dif(logical(index));
         times = times(index);
         times = times(2:end);
@@ -87,7 +93,7 @@ while(i<length(time_diff))
         i=i+1;
     end
     if label
-        if max(time_diff(startpoint:i-1))-min(time_diff(startpoint:i-1))>0.2|i-startpoint<6
+        if max(time_diff(startpoint:i-1))-min(time_diff(startpoint:i-1))>0.1|i-startpoint<6
             index(startpoint:i-1) = 0;
         else
             index(startpoint:i-1) = 1;
